@@ -1,0 +1,4 @@
+export NODE_PATH=/root/.nvm/v0.11.16/lib/node_modules # move this to .bashrc?
+
+
+

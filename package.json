@@ -1,0 +1,43 @@
+{
+  "name": "selenium_tests",
+  "description": "Integration tests",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/root/tutorial/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/tutorial",
+  "engines": {
+    "node": ">= 0.11.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "colors": "latest",
+    "grunt": "^0.4.1",
+    "grunt-loop-mocha": "^1.2.2",
+    "lodash": "latest",
+    "mocha": "^2.3.4",
+    "mocha-steps": "^1.0.2",
+    "nopt-grunt": "^0.1.1",
+    "selenium-webdriver": "latest",
+    "time-grunt": "^1.2.2",
+    "wd": "latest"
+  },
+  "keywords": [],
+  "dependencies": {
+    "wd-bridge": "0.0.2",
+    "webdriverio": "^4.8.0"
+  }
+}

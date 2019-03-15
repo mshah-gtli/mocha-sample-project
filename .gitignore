@@ -1,0 +1,12 @@
+.idea
+*.iml
+target
+*.log
+target/classes
+target/test-classes
+target/generated-sources/
+target/generated-test-sources/
+gruntfile_old.js
+.vscode
+configs
+node_modules
